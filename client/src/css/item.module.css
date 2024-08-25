@@ -1,0 +1,131 @@
+.Post{
+    margin-top: 94px;
+}
+.slideBox{
+    width: 717px;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+}
+.slides{
+    display: flex;
+    height: 500px;
+    width: 677px;
+}
+.slides img{
+    width: 677px;
+    height: 100%;
+    border-radius: 10px;
+}
+.controller{
+    display: flex;
+    align-items: center;
+    width: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #868e96;
+    background-color: #fff;
+    border: 0;
+}
+#prev{
+    z-index: 99;
+}
+#next{
+    z-index: 99;
+}
+.controller:hover{
+    color: black;
+}
+.section_profile{
+    width: 677px;
+    margin: 0 auto;
+}
+.section_profile>div{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #e9ecef;
+}
+.section_profile img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 8px;
+}
+#nickName{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+#address{
+    font-size: 13px;
+}
+.section_description{
+    width: 677px;
+    margin: 0 auto;
+    padding: 32px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+.section_description>h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.6px;
+}
+.section_description>p{
+    margin-top: 4px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.76;
+    letter-spacing: -0.6px;
+}
+.section_description>div{
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.section_description>div p{
+    font-size: 17px;
+    line-height: 1.6;
+    letter-spacing: -0.6px;
+    margin: 16px 0;
+    word-break: break-all;
+}
+.article_count{
+    font-size: 13px;
+    line-height: 1.46;
+    letter-spacing: -0.6px;
+    color: #868e96;
+}
+.suggest_item{
+    width: 677px;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+.suggest_title{
+    display: flex;
+    justify-content: space-between;
+}
+.suggest_title h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.suggest_title a{
+    height: 15px;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+    color: #ff8a3d;
+    cursor: pointer;
+}
+.suggest_title a:hover{
+    font-weight: bold;
+}
+.suggest_list{
+    display: flex;
+    justify-content: space-around;
+}
+#suggest_card{
+}

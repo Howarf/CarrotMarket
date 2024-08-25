@@ -1,0 +1,145 @@
+.Footer{
+    border-top: 1px solid #eaebee;
+    box-sizing: border-box;
+    width: 100%;
+}
+.FootContent{
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    margin: 0 auto;
+}
+.sectionTop{
+    justify-content: space-around;
+    padding: 48px 0;
+}
+.sectionTop>section{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 304px;
+}
+#downloadSign{
+    font-size: 14px;
+    font-weight: 700;
+}
+#Btns{
+    display: flex;
+    justify-content: space-between;
+}
+#appleBtn,#googleBtn{
+    width: 147px;
+    height: 47px;
+    margin-top: 8px;
+    background-color: #f2f3f6;
+    border-radius: 10px;
+    border: 0;
+    font-weight: bolder;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#appleBtn:hover,#googleBtn:hover{
+    cursor: pointer;
+    color: #686e79;
+}
+#googleBtn>div{
+    margin-left: 10px;
+}
+#appleBtn img,#googleBtn img{
+    width: 16px;
+    margin-right: 8px;
+}
+.sectionTop>nav{
+    display: flex;
+    flex-direction: row;
+    line-height: 14px;
+}
+.sectionTop>nav div{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    width: 33%;
+}
+.sectionTop>nav div p{
+    color: #212124;
+    cursor: pointer;
+    height: 19px;
+    margin: 16px;
+}
+.sectionTop>nav div p:hover{
+    text-decoration: underline;
+}
+.infoBox{
+    border-top: 1px solid #eaebee;
+    box-sizing: border-box;
+    padding-top: 24px;
+    padding-bottom: 100px;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    color: #868894;
+}
+#info b{
+    margin-right: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#info b:hover{
+    text-decoration: underline;
+}
+#info b{
+    font-weight: 700;
+}
+#info div{
+    margin-bottom: 5px;
+}
+.dashline{
+    margin: 0 4px;
+}
+#info section{
+    margin-bottom: 16px;
+}
+#snsBox{
+    display: flex;
+}
+#snsBox sapn{
+    margin-right: 16px;
+}
+#emphasis{
+    color: #4d5159;
+}
+.SignFooter{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #eaebee;
+    justify-content: center;
+    z-index: 1000;
+}
+.SignFooter>div{
+    width: 1200px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: #868b94
+}
+.FootList a{
+    color: #868b94;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 12px;
+}
+#highlight{
+    color: #212124;
+}

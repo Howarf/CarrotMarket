@@ -1,0 +1,123 @@
+.case{
+    min-height: 500px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2.5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.case>p{
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4d5159;
+}
+.postBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.posts{
+    width: 100%;
+    height: 120px;
+    margin: 5px 0;
+    display: flex;
+    background-color: #f2f3f6;
+    border-radius: 15px;
+    box-sizing: border-box;
+    align-items: center;
+    overflow: hidden;
+}
+.posts:hover{
+    cursor: pointer;
+}
+.postImg{
+    width: 144px;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.postImg>div{
+    width: 24px;
+    height: 100%;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    background-color: #ff8a3d;
+}
+.postImg p{
+    margin-top: 6px;
+    color: #fff;
+}
+.postImg img{
+    width: 110px;
+    height: 110px;
+    margin: 4px;
+    margin-left: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.postInfo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+.postText{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.postText>p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.postText>pre{
+    height: 70px;
+    font-size: 12px;
+    line-height: 10px;
+    overflow-y: scroll;
+}
+.postBtn{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.editBtn{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #ff8a3d;
+}
+.editBtn:hover{
+    background-color: #ff6f0f;
+}
+.delBtn{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #ff3d3d;
+}
+.delBtn:hover{
+    background-color: #ff0f0f;
+}
+.posts:hover > .postImg>div{
+    background-color: #ff6f0f;
+}

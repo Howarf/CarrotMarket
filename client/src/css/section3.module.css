@@ -1,0 +1,97 @@
+.contents{
+    padding: 60px 0;
+    background-color: #F8F9FA;
+}
+.contents>div{
+    width: 1024px;
+    margin: 60px auto 120px auto;
+}
+#hotTitle{
+    margin-bottom: 80px;
+    font-size: 40px;
+    line-height: 1.35;
+    text-align: center;
+    font-weight: 700;
+}
+#moreList{
+    font-size: 16px;
+    text-decoration: underline;
+    line-height: 1.35;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+}
+#moreList a{
+    color: #212529; 
+}
+#moreList:hover{
+    cursor: pointer;
+}
+.cardList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: calc(25% - 44px);
+    margin-right: 44px;
+    margin-bottom: 56px;
+}
+.card:nth-child(4n){
+    margin-right: 0px;
+}
+.cardLink{
+    text-decoration: none;
+    color: #212529;
+}
+.cardImg{
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #F8F9FA;
+    box-shadow: inset 0px 0px 0px 1px rgb(0 0 0 / 15%);
+    box-sizing: border-box;
+}
+.cardImg img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid transparent;
+}
+.card-decs{
+    margin-top: 12px;
+}
+.cardTitle{
+    font-size: 16px;
+    letter-spacing: -0.02px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.cardPricce{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+.cardAddress{
+    font-size: 13px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+    line-height: 1.5;
+}
+.cardCount{
+    color: #868e96;
+    font-size: 13px;
+}
