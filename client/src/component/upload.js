@@ -17,7 +17,7 @@ export default function Upload(){
     const data = JSON.parse(sessionStorage.getItem('user_info'));
 
     useEffect(()=>{
-        if(params){
+        if(params.id){
             if(data.id !== 'admin'){
                 axios.post('/post/checkPost', null, {params:{
                     'u_id':data.id, 'postNum':params.id
