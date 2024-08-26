@@ -52,9 +52,9 @@
 
 * 상품 리스트 페이지와 상품 페이지, 업로드 페이지
 <div>
-  <img src="/client/public/img/page2.png" width="33%" height="30%"></img>
-  <img src="/client/public/img/page3.png" width="33%" height="30%"></img>
-  <img src="/client/public/img/page11.png" width="33%" height="30%"></img>
+  <img src="/client/public/img/page2.png" width="40%" height="30%"></img>
+  <img src="/client/public/img/page3.png" width="40%" height="30%"></img>
+  <img src="/client/public/img/page11.png" width="40%" height="30%"></img>
 </div>
 <br/>
 
